@@ -94,7 +94,10 @@ export function getTeas(contryName) {
 }
 
 export function getTea(teaId) {
-  return data.teas.filter(tea => tea.id === teaId)[0]
+  const index = teas.findIndex(tea => tea.id === teaId)
+  const tea = teas[index]
+  console.info(`getTea: ${tea.name}`)
+  return tea
 }
 
 export function createTea(name, contryName) {

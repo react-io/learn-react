@@ -69,7 +69,11 @@ var ContryType = new GraphQLObjectType({
       description: '属于这个国家的著名茶叶',
       args: connectionArgs,
       type: teaConnection,
-      resolve: (contry, args) => connectionFromArray(contry.teaIds.map(id => getTea(id)), args)
+
+      resolve: (contry, args) => connectionFromArray(
+        contry.teaIds.map(id => getTea(id)),
+        args
+      )
     },
   }),
   interfaces: [nodeInterface],

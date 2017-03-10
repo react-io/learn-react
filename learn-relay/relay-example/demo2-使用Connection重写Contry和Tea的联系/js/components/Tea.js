@@ -22,6 +22,7 @@ export default Relay.createContainer(Tea, {
   fragments: {
     tea: () => Relay.QL`
       fragment on Tea {
+        id
         name
       }
     `

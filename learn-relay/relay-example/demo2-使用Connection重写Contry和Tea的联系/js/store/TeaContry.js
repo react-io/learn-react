@@ -8,10 +8,11 @@ import Tea from '../components/Tea'
 
 class TeaContry extends React.Component {
   render() {
-    const contry = this.props.contry
     return (
       <ul>
-        {contry.teas.edges.map(node => <Tea tea={node}></Tea>)}
+        {this.props.contry.teas.edges.map(({ node }) =>
+          <Tea tea={node}></Tea>
+        )}
       </ul>
     )
   }
@@ -23,7 +24,7 @@ export default Relay.createContainer(TeaContry, {
       fragment on Contry{
         id
         name
-        teas(first: 10){
+        teas(first: 5){
           edges{
             node{
               ${Tea.getFragment('tea')}
