@@ -35,12 +35,20 @@ class StarWarsApp extends React.Component {
     this.setState({ shipName: '' });
   }
 
+  /**
+   * 设置飞船的名字
+   * @param e
+   */
   handleInputChange(e) {
     this.setState({
       shipName: e.target.value,
     });
   }
 
+  /**
+   * 设置派系
+   * @param e
+   */
   handleSelectionChange(e) {
     this.setState({
       factionId: e.target.value,

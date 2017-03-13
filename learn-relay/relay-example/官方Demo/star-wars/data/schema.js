@@ -252,18 +252,22 @@ const queryType = new GraphQLObjectType({
 /**
  * This will return a GraphQLFieldConfig for our ship mutation.
  *
- * It creates these two types implicitly:
- *   input IntroduceShipInput {
- *     clientMutationId: string!
- *     shipName: string!
- *     factionId: ID!
- *   }
+ input IntroduceShipInput {
+  shipName: String!
+  factionId: ID!
+  clientMutationId: String!
+}
+
+ type IntroduceShipPayload {
+  newShipEdge: ShipEdge
+  faction: Faction
+  clientMutationId: String!
+}
+
+ type Mutation {
+  introduceShip(input: IntroduceShipInput!): IntroduceShipPayload
+}
  *
- *   input IntroduceShipPayload {
- *     clientMutationId: string!
- *     ship: Ship
- *     faction: Faction
- *   }
  */
 const shipMutation = mutationWithClientMutationId({
   name: 'IntroduceShip',
@@ -278,17 +282,18 @@ const shipMutation = mutationWithClientMutationId({
   outputFields: {
     newShipEdge: {
       type: ShipEdge,
-      resolve: (payload) => {
-        const ship = getShip(payload.shipId);
+      resolve: (newShip) => {
+        // console.info("resolve:" + JSON.stringify(newShip))
+        const ship = getShip(newShip.shipId);
         return {
-          cursor: cursorForObjectInConnection(getShips(payload.factionId), ship),
+          cursor: cursorForObjectInConnection(getShips(newShip.factionId), ship),
           node: ship,
         };
       },
     },
     faction: {
       type: factionType,
-      resolve: (payload) => getFaction(payload.factionId),
+      resolve: ({ shipName, factionId }) => getFaction(factionId),
     },
   },
   mutateAndGetPayload: ({ shipName, factionId }) => {
@@ -311,9 +316,9 @@ const shipMutation = mutationWithClientMutationId({
  */
 const mutationType = new GraphQLObjectType({
   name: 'Mutation',
-  fields: () => ({
-    introduceShip: shipMutation,
-  }),
+  fields: () => (
+    { introduceShip: shipMutation, }
+  ),
 });
 
 /**
