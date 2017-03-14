@@ -13,7 +13,7 @@
 
 ## 翻譯版本（Translate）
 
-1. [简体中文版本 by @carlleton](https://github.com/carlleton/reactjs101/tree/zh-CN)
+1. [简体中文版本 by @carlleton](https://github.com/relay-learn/learn-react/blob/master/README.zh_CN.md)
 2. [前端圈简体中文版本 by @blueflylin]( https://github.com/blueflylin/reactjs101) [特別感謝前端圈小夥伴！](http://fequan.com/)
 
 
@@ -39,8 +39,11 @@
 ## 先備知識（Prior Knowledge）
 本書針對已具備基本 HTML、CSS 和 JavaScript 和 DOM 操作知識的讀者設計，但若讀者對上述的技術仍不熟悉的話，建議可以先行參考：[MDN](https://developer.mozilla.org/zh-TW/)、[Codecademy](https://www.codecademy.com/)、[W3C School](http://www.w3schools.com/)、[JavaScript核心](http://weizhifeng.net/javascript-the-core.html) 或是參考筆者 [之前的教學講義](http://kdchang.cc/web-programming-course/) 進行學習。另外，本書全書範例都將以 ES6+ 撰寫，若需參考 ES5 用法，請參考附錄一的 [React ES5、ES6+ 常見用法對照表](https://github.com/kdchang/reactjs101/tree/master/Appendix01)。
 
-## 關於作者（Author）
+## 原作者（Author）
 [@kdchang](http://blog.kdchang.cc) 文藝型開發者，夢想是做出人們想用的產品和辦一所心目中理想的學校，目前專注在 Mobile 和 IoT 應用開發。A Starter & Maker. JavaScript, Python & Arduino/Android lover.:)
+
+## 现作者
+@[@HyperSimon](https://github.com/HyperSimon)
 
 ## 版權許可（License）
 本書採用創用CC授權4.0 "姓名標示─非商業性─相同方式分享(BY-NC-SA)" 授權。
