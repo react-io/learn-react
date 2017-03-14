@@ -45,8 +45,8 @@
       <file leaf-file-name="schema.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="292" column="19" lean-forward="true" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
+            <state relative-caret-position="554">
+              <caret line="290" column="28" lean-forward="true" selection-start-line="290" selection-start-column="10" selection-end-line="290" selection-end-column="10" />
               <folding>
                 <element signature="e#0#615#0" expanded="true" />
                 <element signature="e#632#759#0" expanded="true" />
@@ -56,7 +56,6 @@
                 <element signature="e#3815#4222#0" expanded="true" />
                 <element signature="e#4354#4590#0" expanded="true" />
                 <element signature="e#5920#6281#0" expanded="true" />
-                <element signature="e#6605#6854#0" expanded="true" />
                 <element signature="e#7034#7166#0" expanded="true" />
                 <element signature="e#7173#7459#0" expanded="true" />
               </folding>
@@ -107,8 +106,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
-    <option name="width" value="718" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -330,15 +328,15 @@
       <workItem from="1489410277691" duration="328000" />
       <workItem from="1489410622247" duration="5000" />
       <workItem from="1489416646365" duration="1803000" />
-      <workItem from="1489418662234" duration="1137000" />
+      <workItem from="1489418662234" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21880000" />
+    <option name="totallyTimeSpent" value="22331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="0" width="718" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44332856" sideWeight="0.48637316" order="0" side_tool="false" content_ui="combo" />
@@ -500,7 +498,6 @@
             <element signature="e#3815#4222#0" expanded="true" />
             <element signature="e#4354#4590#0" expanded="true" />
             <element signature="e#5920#6281#0" expanded="true" />
-            <element signature="e#6605#6854#0" expanded="true" />
             <element signature="e#7034#7166#0" expanded="true" />
             <element signature="e#7173#7459#0" expanded="true" />
           </folding>
@@ -642,7 +639,6 @@
             <element signature="e#3815#4222#0" expanded="true" />
             <element signature="e#4354#4590#0" expanded="true" />
             <element signature="e#5920#6281#0" expanded="true" />
-            <element signature="e#6605#6854#0" expanded="true" />
             <element signature="e#7034#7166#0" expanded="true" />
             <element signature="e#7173#7459#0" expanded="true" />
           </folding>
@@ -967,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="292" column="19" lean-forward="true" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
+        <state relative-caret-position="554">
+          <caret line="290" column="28" lean-forward="true" selection-start-line="290" selection-start-column="10" selection-end-line="290" selection-end-column="10" />
           <folding>
             <element signature="e#0#615#0" expanded="true" />
             <element signature="e#632#759#0" expanded="true" />
@@ -978,7 +974,6 @@
             <element signature="e#3815#4222#0" expanded="true" />
             <element signature="e#4354#4590#0" expanded="true" />
             <element signature="e#5920#6281#0" expanded="true" />
-            <element signature="e#6605#6854#0" expanded="true" />
             <element signature="e#7034#7166#0" expanded="true" />
             <element signature="e#7173#7459#0" expanded="true" />
           </folding>

@@ -17,17 +17,17 @@
 2. [前端圈简体中文版本 by @blueflylin]( https://github.com/blueflylin/reactjs101) [特別感謝前端圈小夥伴！](http://fequan.com/)
 
 
-若需翻譯成其他語言版本，请提交相应语言的README.md 文件，如中文简体：README.zh_CN.md
+若需翻譯成其他語言版本，請先 `fork` 一份 `repo` 到自己的 Guthub 並另外開新的 `branch`。最後將翻譯版本連結更新在 `master` 分支中 `README.md` 的 `相關連結（Links）` 後發送 `Pull Request`，謝謝您。
 
 ## 目錄（Table of Contents）
 
 - [X] [一、前端工程和 React 生態系（Ecosystem）簡介](https://github.com/kdchang/reactjs101/tree/master/Ch01)
 - [X] [二、開發環境設置與 Webpack 入門](https://github.com/kdchang/reactjs101/tree/master/Ch02)
 - [X] [三、React/JSX/Component 簡介](https://github.com/kdchang/reactjs101/tree/master/Ch03)
-- [X] [四、Props/State 基礎與 Component 生命週期](https://github.com/kdchang/reactjs101/tree/master/Ch04)
+- [X] [四、Props/State 基礎與 Component 生命週期](https://github.com/kdchang/reactjs101/tree/master/Ch04) 
 - [X] [五、React Router](https://github.com/kdchang/reactjs101/tree/master/Ch05)
 - [X] [六、ImmutableJS](https://github.com/kdchang/reactjs101/tree/master/Ch06)
-- [X] [七、Flux/Redux](https://github.com/kdchang/reactjs101/tree/master/Ch07)
+- [X] [七、Flux/Redux](https://github.com/kdchang/reactjs101/tree/master/Ch07) 
 - [X] [八、Container 與 Presentational Components](https://github.com/kdchang/reactjs101/tree/master/Ch08)
 - [X] [九、實戰教學：用 React + Router + Redux + ImmutableJS 寫一個 Github 查詢應用](https://github.com/kdchang/reactjs101/tree/master/Ch09)
 - [X] [十、實戰教學：用 React + Redux + Node（Isomorphic JavaScript）開發食譜分享網站](https://github.com/kdchang/reactjs101/tree/master/Ch10)
